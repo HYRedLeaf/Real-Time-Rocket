@@ -1,0 +1,91 @@
+P-CAD Schematic ASCII File Export Log :
+   Current document: D:\IMU_Breakout_SCH_E.sch
+   BeginLog
+      Information : 
+      Information :   Start exporting symbols
+      Information :    Exporting symbol definition(s) for component [C0805X104K5RAC3316]
+      Warning :     Symbol name [C0805X104K5RAC3316], mode [Normal], part [1] changed to [C0805X104K5RAC3316_1_N]
+      Information :    Exporting symbol definition(s) for component [Breakout_Port]
+      Warning :     Symbol name [Breakout_Port], mode [Normal], part [1] changed to [Breakout_Port_1_N]
+      Warning :     Rectangle [0mil : 400mil]-[1200mil : 1300mil] exported as lines.
+      Information :    Exporting symbol definition(s) for component [ICM_20649]
+      Warning :     Symbol name [ICM_20649], mode [Normal], part [1] changed to [ICM_20649_1_N]
+      Warning :     Rectangle [0mil : 0mil]-[1500mil : 1300mil] exported as lines.
+      Information : Start exporting the symbol definitions for power ports
+      Warning :     End exporting the symbol defintions for power ports
+      Information :   End exporting symbols
+      Information : 
+      Information : 
+      Information :   Start exporting components
+      Information :    Exporting component [C0805X104K5RAC3316]
+      Information :    Exporting component [Breakout_Port]
+      Warning :     Component [Breakout_Port] changed to [BREAKOUT_PORT]
+      Information :    Exporting component [ICM_20649]
+      Information : Start exporting component definitions for power ports
+      Warning :     End exporting component definitions for powerports
+      Information :   End exporting components
+      Information : 
+   EndLog
+   Imported succesfully!
+ 
+      Information : Start export of netlist
+      Information : Start export of component instances
+      Information : End export of component instances
+      Information : Start export of nets
+      Information : End export of nets
+      Information : End export of netlist
+      Warning :     Workspace size [180000 : 180000] exceeds maximum limit which is [60000 : 60000] units. Some objects may fall outside workspace
+      Information : Start exporting the objects for sheet [IMU_Breakout_SCH]
+      Information : Start WIRES export
+      Information : End WIRES export
+      Information : Start BUSES export
+      Information : End BUSES export
+      Information : Start PORTS export
+      Information : End PORTS export
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     P-CAD doesn't support object type [Parameter]
+      Warning :     Exporting powerport at [5600mil : 6800mil] as component with designator [PP51]
+      Warning :     Exporting powerport at [3600mil : 6800mil] as component with designator [PVCC_3V31]
+      Warning :     Exporting powerport at [4800mil : 800mil] as component with designator [GND1]
+      Warning :     Exporting powerport at [6000mil : 2700mil] as component with designator [GND2]
+      Warning :     Exporting powerport at [5800mil : 1900mil] as component with designator [GND3]
+      Warning :     Exporting powerport at [4200mil : 800mil] as component with designator [GND4]
+      Warning :     Exporting powerport at [5000mil : 4100mil] as component with designator [GND5]
+      Warning :     Exporting powerport at [3600mil : 1400mil] as component with designator [PVCC_3V32]
+      Warning :     Exporting powerport at [6400mil : 2200mil] as component with designator [PVCC_3V33]
+      Information : End exporting the objects for sheet [IMU_Breakout_SCH]
+      Information : Sheet name [ICM-20649] changed to [ICM_20649]
+      Information : Start exporting the objects for sheet [ICM-20649]
+      Information : Start WIRES export
+      Information : End WIRES export
+      Information : Start BUSES export
+      Information : End BUSES export
+      Information : Start PORTS export
+      Information : End PORTS export
+      Information : End exporting the objects for sheet [ICM-20649]
+EndLog

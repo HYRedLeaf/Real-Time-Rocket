@@ -1,0 +1,15 @@
+Export log for : ICM-20649.Rep
+AddingPadStyle (Default)
+AddingPadStyle EF25X9TOP1
+Adding ViaStyle (Default)
+Adding TextStyle (Default)
+Adding PatternDef *QFN40P300X300X95-24N
+      Warning: Unexpected Poly Region Object Found On Layer KeepOutLayer.
+      Warning: Unexpected Poly Region Object Found On Layer KeepOutLayer.
+      Warning: Unexpected Poly Region Object Found On Layer KeepOutLayer.
+      Warning: Unexpected Poly Region Object Found On Layer KeepOutLayer.
+      Warning: Unexpected Poly Region Object Found On Layer KeepOutLayer.
+      Warning: Unexpected Poly Region Object Found On Layer KeepOutLayer.
+Adding CompDef *QFN40P300X300X95-24N
+ 
+EndLog

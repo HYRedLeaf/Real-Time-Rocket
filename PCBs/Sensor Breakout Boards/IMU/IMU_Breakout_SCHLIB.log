@@ -1,0 +1,19 @@
+P-CAD Schematic ASCII File Export Log :
+   Current document: D:\IMU_Breakout_SCHLIB.lia
+   BeginLog
+      Warning :     Symbol name [C0805X104K5RAC3316], mode [Normal], part [1] changed to [C0805X104K5RAC3316_1_N]
+      Information : Exporting symbol definition(s) for component [C0805X104K5RAC3316]
+      Warning :     Symbol name [Breakout_Port], mode [Normal], part [1] changed to [Breakout_Port_1_N]
+      Warning :     Rectangle [0mil : 400mil]-[1200mil : 1300mil] exported as lines.
+      Information : Exporting symbol definition(s) for component [Breakout_Port]
+      Warning :     Symbol name [ICM_20649], mode [Normal], part [1] changed to [ICM_20649_1_N]
+      Warning :     Rectangle [0mil : 0mil]-[1500mil : 1300mil] exported as lines.
+      Information : Exporting symbol definition(s) for component [ICM_20649]
+      Information : Exporting component definition for component [C0805X104K5RAC3316]
+      Information : Exporting component definition for component [Breakout_Port]
+      Warning :     Component [Breakout_Port] changed to [BREAKOUT_PORT]
+      Information : Exporting component definition for component [ICM_20649]
+   EndLog
+   Imported succesfully!
+ 
+EndLog

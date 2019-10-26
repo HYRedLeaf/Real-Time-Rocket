@@ -1,0 +1,9 @@
+Export log for : IMU_Breakout_PCBLIB.Rep
+AddingPadStyle (Default)
+AddingPadStyle EF20X49TOP1
+Adding ViaStyle (Default)
+Adding TextStyle (Default)
+Adding PatternDef Breakout_Port
+Adding CompDef Breakout_Port
+ 
+EndLog
