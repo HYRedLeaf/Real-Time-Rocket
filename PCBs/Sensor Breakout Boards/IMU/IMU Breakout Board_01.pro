@@ -2,14 +2,14 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/clayt/Documents/GitHub/Real-Time-Rocket/PCBs/Sensor Breakout Boards/IMU/IMU Breakout Board.brd
 
-Start at      : 19:08:40 (2019-11-06)
-End at        : 19:08:41 (2019-11-06)
+Start at      : 19:35:03 (2019-11-06)
+End at        : 19:35:04 (2019-11-06)
 Elapsed time  : 00:00:00
 
-Signals       :    11   RoutingGrid: 25 mil  Layers: 2
-Connections   :    16   predefined:  0 ( 0 Vias )
+Signals       :    10   RoutingGrid: 25 mil  Layers: 2
+Connections   :    17   predefined:  15 ( 7 Vias )
 
-Router memory :   10560
+Router memory :   9216
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         0         4         4         4         4         4
+Routed            :         0         1         1         1         1         1
 Vias              :         0         0         0         0         0         0
-Resolution        :     0.0 %    25.0 %    25.0 %    25.0 %    25.0 %    25.0 %
+Resolution        :    88.2 %    94.1 %    94.1 %    94.1 %    94.1 %    94.1 %
 
 Final             : 

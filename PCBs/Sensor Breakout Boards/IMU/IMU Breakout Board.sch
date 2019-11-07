@@ -2772,48 +2772,15 @@ Used as a generalized connector for attaching new sensors</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="17.78" y1="40.64" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="20.32" y1="63.5" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G1" pin="NCS"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="15.24" y1="40.64" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="17.78" y1="66.04" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G1" pin="SCL_/_SCLK"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="12.7" y1="40.64" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="68.58" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="15.24" y1="68.58" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G1" pin="SDA_/_SDI"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="17.78" y1="-7.62" x2="17.78" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-27.94" x2="2.54" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-27.94" x2="-15.24" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="-27.94" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="33.02" x2="-15.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="71.12" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G1" pin="SDO_/_AD0"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="88.9" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="101.6" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="101.6" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
@@ -2831,13 +2798,17 @@ Used as a generalized connector for attaching new sensors</description>
 <junction x="15.24" y="-30.48"/>
 <junction x="68.58" y="10.16"/>
 <junction x="48.26" y="10.16"/>
+<wire x1="10.16" y1="101.6" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="101.6" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="71.12" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-33.02" x2="25.4" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-33.02" x2="25.4" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-35.56" x2="25.4" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G1" pin="REGOUT"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
@@ -2845,9 +2816,7 @@ Used as a generalized connector for attaching new sensors</description>
 <net name="N$11" class="0">
 <segment>
 <wire x1="25.4" y1="-43.18" x2="25.4" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="73.66" x2="-17.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="73.66" x2="-17.78" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="68.58" x2="-17.78" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-48.26" x2="15.24" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-48.26" x2="25.4" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
@@ -2869,6 +2838,35 @@ Used as a generalized connector for attaching new sensors</description>
 <junction x="25.4" y="-48.26"/>
 <junction x="60.96" y="22.86"/>
 <junction x="73.66" y="22.86"/>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="22.86" y1="73.66" x2="22.86" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="68.58" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="U1" gate="G1" pin="SDA_/_SDI"/>
+<wire x1="12.7" y1="73.66" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U1" gate="G1" pin="SCL_/_SCLK"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U1" gate="G1" pin="SDO_/_AD0"/>
+<wire x1="17.78" y1="-7.62" x2="17.78" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-33.02" x2="71.12" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-33.02" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="104.14" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="68.58" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="104.14" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
