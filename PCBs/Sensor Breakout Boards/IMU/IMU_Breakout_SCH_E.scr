@@ -1,7 +1,10 @@
 # PCAD layers:
 #
 # Library header:
-OPEN 'D:/IMU_Breakout_SCH_E.lbr';
+SET CONFIRM YES;
+REMOVE 'C:/Users/clayt/Documents/GitHub/Real-Time-Rocket/PCBs/Sensor Breakout Boards/IMU/IMU_Breakout_SCH_E.lbr';
+SET CONFIRM OFF;
+OPEN 'C:/Users/clayt/Documents/GitHub/Real-Time-Rocket/PCBs/Sensor Breakout Boards/IMU/IMU_Breakout_SCH_E.lbr';
 SET WIRE_BEND 2;
 SET OPTIMIZING OFF;
 #
@@ -498,8 +501,8 @@ PREFIX 'P';
 WRITE;
 CLOSE;
 # ***** Schematic *****
-EDIT 'D:/IMU_Breakout_SCH_E.sch.eagle.sch';
-USE -* 'D:/IMU_Breakout_SCH_E.lbr';
+EDIT 'C:/Users/clayt/Documents/GitHub/Real-Time-Rocket/PCBs/Sensor Breakout Boards/IMU/IMU_Breakout_SCH_E.sch.eagle.sch';
+USE -* 'C:/Users/clayt/Documents/GitHub/Real-Time-Rocket/PCBs/Sensor Breakout Boards/IMU/IMU_Breakout_SCH_E.lbr';
 GRID mil;
 SET CONFIRM YES;
 SET AUTO_JUNCTION OFF;
