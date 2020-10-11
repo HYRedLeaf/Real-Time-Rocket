@@ -2813,7 +2813,7 @@ Used as a generalized connector for attaching new sensors</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="GND" class="0">
 <segment>
 <wire x1="25.4" y1="-43.18" x2="25.4" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="68.58" x2="-17.78" y2="-48.26" width="0.1524" layer="91"/>
